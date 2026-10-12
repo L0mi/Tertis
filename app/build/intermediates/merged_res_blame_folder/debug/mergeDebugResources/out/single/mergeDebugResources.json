@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.sayu.tertis.app-debug-3:/raw_tetris_theme_deadlock.mp3.flat",
+        "source": "com.sayu.tertis.app-main-5:/raw/tetris_theme_deadlock.mp3"
+    },
+    {
+        "merged": "com.sayu.tertis.app-debug-3:/raw_tetris_chaos_mode.mp3.flat",
+        "source": "com.sayu.tertis.app-main-5:/raw/tetris_chaos_mode.mp3"
+    },
+    {
+        "merged": "/Users/lomisoup/.gradle/daemon/9.4.1/com.sayu.tertis.app-debug-3:/raw_background_music.mp3.flat",
+        "source": "/Users/lomisoup/.gradle/daemon/9.4.1/com.sayu.tertis.app-main-5:/raw/background_music.mp3"
+    },
+    {
+        "merged": "/Users/lomisoup/.gradle/daemon/9.4.1/com.sayu.tertis.app-debug-3:/drawable_tertis_app_icon.png.flat",
+        "source": "/Users/lomisoup/.gradle/daemon/9.4.1/com.sayu.tertis.app-main-5:/drawable/tertis_app_icon.png"
+    }
+]

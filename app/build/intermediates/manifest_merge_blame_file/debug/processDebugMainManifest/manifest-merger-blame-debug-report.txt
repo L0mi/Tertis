@@ -1,0 +1,51 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sayu.tertis"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <application
+11-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:3:5-18:19
+12        android:allowBackup="true"
+12-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:4:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+14-->INJECTED
+15        android:icon="@drawable/tertis_app_icon"
+15-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:5:9-49
+16        android:label="Tertis"
+16-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:6:9-31
+17        android:supportsRtl="true"
+17-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:7:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:8:9-40
+20        <activity
+20-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:9:9-17:20
+21            android:name="com.sayu.tertis.MainActivity"
+21-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:10:13-41
+22            android:exported="true"
+22-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:12:13-36
+23            android:screenOrientation="portrait" >
+23-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:11:13-49
+24            <intent-filter>
+24-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:13:13-16:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:14:17-69
+25-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:14:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:15:17-77
+27-->/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:15:27-74
+28            </intent-filter>
+29        </activity>
+30    </application>
+31
+32</manifest>

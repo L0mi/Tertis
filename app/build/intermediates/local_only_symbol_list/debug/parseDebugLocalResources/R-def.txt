@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+drawable tertis_app_icon
+raw background_music
+raw tetris_chaos_mode
+raw tetris_theme_deadlock
+style AppTheme

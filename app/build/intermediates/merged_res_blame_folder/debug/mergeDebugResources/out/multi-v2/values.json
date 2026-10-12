@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/lomisoup/.gradle/daemon/9.4.1/com.sayu.tertis.app-mergeDebugResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "508"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.sayu.tertis.app-mergeDebugResources-1:/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "441"
+                    }
+                }
+            ]
+        }
+    ]
+}

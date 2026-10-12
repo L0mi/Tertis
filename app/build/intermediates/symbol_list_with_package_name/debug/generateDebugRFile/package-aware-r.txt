@@ -1,0 +1,6 @@
+com.sayu.tertis
+drawable tertis_app_icon
+raw background_music
+raw tetris_chaos_mode
+raw tetris_theme_deadlock
+style AppTheme

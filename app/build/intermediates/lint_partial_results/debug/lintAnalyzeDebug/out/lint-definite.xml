@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 9.2.1" type="incidents">
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 37"
+            oldString="36"
+            replacement="37"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="10"
+            column="9"
+            startOffset="198"
+            endLine="10"
+            endColumn="23"
+            endOffset="212"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of Gradle than 9.4.1 is available: 9.8.1">
+        <fix-replace
+            description="Update to 9.8.1"
+            oldString="9.4.1"
+            replacement="9.8.1"
+            priority="0"/>
+        <location
+            file="$HOME/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"
+            startOffset="81"
+            endLine="3"
+            endColumn="80"
+            endOffset="144"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of `compileSdk` than 36 is available: 37">
+        <fix-replace
+            description="Set compileSdk to 37"
+            oldString="36"
+            replacement="37"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="5"
+            column="5"
+            startOffset="91"
+            endLine="5"
+            endColumn="20"
+            endOffset="106"/>
+    </incident>
+
+    <incident
+        id="DiscouragedApi"
+        severity="warning"
+        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios.">
+        <show-url
+            description="Show https://developer.android.com/adaptive-apps"
+            url="https://developer.android.com/adaptive-apps"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="11"
+            column="13"
+            startOffset="388"
+            endLine="11"
+            endColumn="49"
+            endOffset="424"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icons should not fill every pixel of their square region; see the design guide for details">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tertis_app_icon.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/tertis_app_icon.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/tertis_app_icon.png"/>
+    </incident>
+
+</incidents>

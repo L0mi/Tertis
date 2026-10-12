@@ -1,0 +1,5 @@
+int drawable tertis_app_icon 0x0
+int raw background_music 0x0
+int raw tetris_chaos_mode 0x0
+int raw tetris_theme_deadlock 0x0
+int style AppTheme 0x0

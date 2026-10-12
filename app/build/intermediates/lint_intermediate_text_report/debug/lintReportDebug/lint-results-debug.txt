@@ -1,0 +1,89 @@
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build.gradle.kts:10: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 36
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application or sdk runs on a version of Android that is more
+   recent than your targetSdk specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdk is
+   less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdk to the highest available value. Then
+   test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/gradle/wrapper/gradle-wrapper.properties:3: Warning: A newer version of Gradle than 9.4.1 is available: 9.8.1 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-9.4.1-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build.gradle.kts:5: Warning: A newer version of compileSdk than 36 is available: 37 [GradleDependency]
+    compileSdk = 36
+    ~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:11: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "LockedOrientationActivity":
+   The <activity> element should not be locked to any orientation so that
+   users can take advantage of the multi-window environments and larger
+   screens available on Android. To fix the issue, consider declaring the
+   corresponding activity element with `screenOrientation="unspecified"`or
+   fullSensor attribute.
+
+   https://developer.android.com/topic/arc/window-management
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/AndroidManifest.xml:11: Warning: Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios. [DiscouragedApi]
+            android:screenOrientation="portrait"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "DiscouragedApi":
+   Discouraged APIs are allowed and are not deprecated, but they may be unfit
+   for common use (e.g. due to slow performance or subtle behavior).
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/res/drawable/tertis_app_icon.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://d.android.com/r/studio-ui/designer/material/iconography) your
+   launcher icons should "use a distinct silhouette", a "three-dimensional,
+   front view, with a slight perspective as if viewed from above, so that
+   users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+/Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/res/drawable/tertis_app_icon.png: Warning: Found bitmap drawable res/drawable/tertis_app_icon.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+0 errors, 7 warnings

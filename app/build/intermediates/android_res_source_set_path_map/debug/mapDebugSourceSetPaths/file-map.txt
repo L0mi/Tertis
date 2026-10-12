@@ -1,0 +1,8 @@
+com.sayu.tertis.app-pngs-0 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build/generated/res/pngs/debug
+com.sayu.tertis.app-updated_navigation_xml-1 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build/generated/updated_navigation_xml/debug
+com.sayu.tertis.app-packageDebugResources-2 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.sayu.tertis.app-packageDebugResources-3 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.sayu.tertis.app-debug-4 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.sayu.tertis.app-debug-5 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/debug/res
+com.sayu.tertis.app-main-6 /Users/lomisoup/Documents/CODE PROJECTS/PERSONAL/Tertis/TertisAndroid/app/src/main/res
+gradleHome-0 /Users/lomisoup/.gradle
